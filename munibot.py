@@ -16,6 +16,8 @@ def get_predictions():
     try:
         response = requests.get(MUNI_API_URL)
         xml_root = ET.fromstring(response.text)
+        # body (XML root) -> predictions -> direction contains predictions
+        # for the next few trains.
         return list(prediction.attrib for prediction in xml_root[0][0])
     except requests.exceptions.ConnectionError:
         print('Unable to fetch muni data')

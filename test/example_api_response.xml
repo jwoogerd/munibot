@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body copyright="All data copyright San Francisco Muni 2016.">
+  <predictions agencyTitle="San Francisco Muni" routeTitle="KT-Ingleside/Third Street" routeTag="KT" stopTitle="3rd St &amp; Marin St" stopTag="7353">
+    <direction title="Outbound to Balboa Park Station via City College">
+      <prediction epochTime="1478382243904" seconds="589" minutes="9" isDeparture="false" dirTag="KT___O_F00" vehicle="1530" block="9407" tripTag="7276421" />
+      <prediction epochTime="1478382352936" seconds="698" minutes="11" isDeparture="false" dirTag="KT___O_F00" vehicle="1430" block="9408" tripTag="7276422" />
+      <prediction epochTime="1478382790714" seconds="1136" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="KT___O_F00" vehicle="1529" block="9415" tripTag="7276423" />
+      <prediction epochTime="1478383450714" seconds="1796" minutes="29" isDeparture="false" affectedByLayover="true" dirTag="KT___O_F00" vehicle="1443" block="9409" tripTag="7276424" />
+      <prediction epochTime="1478384050714" seconds="2396" minutes="39" isDeparture="false" affectedByLayover="true" dirTag="KT___O_F00" vehicle="1492" block="9411" tripTag="7276425" />
+    </direction>
+    <message text="We&apos;re on Twitter: @sfmta_muni" priority="Low"/>
+    <message text="Starting 11/14 partial K svc btwn WP &amp; CCSF will be provided by bus shuttles btwn 5 to 9am." priority="Low"/>
+    <message text="Last K STOP: CCSF Bridge. Take 29 @ Lee, 8/49 @ Phelan to Balboa Pk" priority="Normal"/>
+    <message text="Sign up for email &amp; text service alerts at sfmta.com." priority="Low"/>
+    <message text="Temp. J &amp; K stop changes @ Balboa Park now thru end of year." priority="Normal"/>
+    <message text="Balboa Park Sta. entrance on SJ Av. closed til Jan. for construction." priority="Low"/>
+  </predictions>
+</body>
